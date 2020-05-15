@@ -1,6 +1,6 @@
 using System;
 
-namespace quehice_api
+namespace QueHice.Api
 {
     public class WeatherForecast
     {
