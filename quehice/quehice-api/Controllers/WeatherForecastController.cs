@@ -6,8 +6,10 @@ using Microsoft.Extensions.Logging;
 
 namespace QueHice.Api.Controllers
 {
+    
+    [Produces("application/json")]
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

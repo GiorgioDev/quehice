@@ -4,11 +4,14 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <RootNamespace>QueHice.Api</RootNamespace>
         <Version>1.0-alpha</Version>
+        <UseAppHost>false</UseAppHost>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
       <PackageReference Include="Microsoft.OpenApi" Version="1.1.4" />
       <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+        
     </ItemGroup>
 
 
