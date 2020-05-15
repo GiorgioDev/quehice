@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quehice-api", "quehice-api\quehice-api.csproj", "{BC7EC1C4-8687-477A-A240-F0C3D12DEADE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quehice-service", "quehice-service\quehice-service.csproj", "{EE019674-FFB4-421C-AC64-9998703B7375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quehice-repo", "quehice-repo\quehice-repo.csproj", "{8DB706E0-3CF2-42E6-B2B7-16F3DFCD4157}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{BC7EC1C4-8687-477A-A240-F0C3D12DEADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC7EC1C4-8687-477A-A240-F0C3D12DEADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC7EC1C4-8687-477A-A240-F0C3D12DEADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE019674-FFB4-421C-AC64-9998703B7375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE019674-FFB4-421C-AC64-9998703B7375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE019674-FFB4-421C-AC64-9998703B7375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE019674-FFB4-421C-AC64-9998703B7375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB706E0-3CF2-42E6-B2B7-16F3DFCD4157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB706E0-3CF2-42E6-B2B7-16F3DFCD4157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB706E0-3CF2-42E6-B2B7-16F3DFCD4157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB706E0-3CF2-42E6-B2B7-16F3DFCD4157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
