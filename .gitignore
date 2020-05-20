@@ -377,3 +377,6 @@ quehice/quehice-api/obj/project.packagespec.json
 quehice/quehice-api/obj/quehice-api.csproj.nuget.dgspec.json
 quehice/quehice-api/obj/quehice-api.csproj.nuget.g.props
 quehice/quehice-api/obj/quehice-api.csproj.nuget.g.targets
+*.props
+*.targets
+*.cache

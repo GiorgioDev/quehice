@@ -14,5 +14,9 @@
         
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\quehice-service\quehice-service.csproj" />
+    </ItemGroup>
+
 
 </Project>

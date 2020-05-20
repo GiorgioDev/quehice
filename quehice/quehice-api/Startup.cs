@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using QueHice.Api.Extensions;
+using QueHice.Service.ServiceProviders;
 
 namespace QueHice.Api
 {
@@ -19,6 +20,10 @@ namespace QueHice.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
+            //Services
+            services.AddTransient<IAchievementService, AchievementService>();
+            
             services.AddControllers();
             
             services.SetupSwagger();
