@@ -39,6 +39,7 @@ namespace QueHice.Api
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseSwaggerConfig(_configuration, env);
         }
     }
 }
